@@ -9,7 +9,7 @@ public class MainPresenterImpl implements MainPresenterInterface {
 
     DataManager model;
     ViewInterface viewInterface;
-
+    //todo link presenter with View interface/ inject view to presenter
     public MainPresenterImpl(ViewInterface viewInterface) {
         this.viewInterface = viewInterface;
     }

@@ -25,10 +25,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-   // implementation 'com.frogermcs.dagger2metrics:dagger2metrics-plugin:0.2.1'
+    // implementation 'com.frogermcs.dagger2metrics:dagger2metrics-plugin:0.2.1'
 
     //dagger2
     implementation "com.google.dagger:dagger:2.9"
     annotationProcessor "com.google.dagger:dagger-compiler:2.9"
     compileOnly 'javax.annotation:jsr250-api:1.0'
+    // compileOnly
 }
